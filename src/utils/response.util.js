@@ -1,5 +1,5 @@
 const withStatusCode = (statusCode, formatter = null) => {
-    if (100 > statusCode || statusCode < 599) {
+    if (100 > statusCode || statusCode > 599) {
         throw new Error('status code out of range');
     }
 
