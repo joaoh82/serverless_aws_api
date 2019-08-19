@@ -1,6 +1,6 @@
 require('dotenv/config');
 
-const { ContactRepository } = require('../../repositories/contact.repository');
+const { ContactRepository } = require('../../repositories/contacts.repository');
 const { withStatusCode } = require('../../utils/response.util');
 const { withProcessEnv } = require('../../dynamodb.factory');
 
